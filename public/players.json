@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Babar Azam",
+    "img": "https://i.ibb.co.com/ynV6TMXL/download-9.jpg",
+    "country": "Pakistan",
+     "position": "Top Order Batter",
+    "role": "Batter",
+    "rating": 95,
+    "price": "13 crore BDT"
+  },
+  {
+    "id": 2,
+    "name": "Jasprit Bumrah",
+    "img": "https://i.ibb.co.com/Hff8zDDc/download-2.jpg",
+     "position": "Fast Bowler",
+    "country": "India",
+    "role": "Bowler",
+    "rating": 93,
+    "price": "10 crore BDT"
+  },
+  {
+    "id": 3,
+    "name": "Shubman Gill",
+    "img": "https://i.ibb.co.com/ymYH6tZh/download.jpg",
+    "position": "Top Order Batter (Opener)",
+    "country": "India",
+    "role": "Batter",
+    "rating": 90,
+    "price": "5 lakh BDT"
+  },
+  {
+    "id": 4,
+    "name": "Virat Kohli",
+    "img": "https://i.ibb.co.com/CKdkQZ0R/download-7.jpg",
+     "position": "Top Order Batter",
+    "country": "India",
+    "role": "Batter",
+    "rating": 96,
+    "price": "5 crore BDT"
+  },
+  {
+    "id": 5,
+    "name": "Wanindu Hasaranga",
+    "img": "https://i.ibb.co.com/Y40Kgdkr/download-6.jpg",
+     "position": "Bowling All-Rounder",
+    "country": "Sri Lanka",
+    "role": "All-rounder",
+    "rating": 89,
+    "price": "7 lakh BDT"
+  },
+  {
+    "id": 6,
+    "name": "Tanzim Hasan Sakib",
+    "img": "https://i.ibb.co.com/hFfYpcBd/download-5.jpg",
+     "position": "Fast Bowler",
+    "country": "Bangladesh",
+    "role": "All-rounder",
+    "rating": 85,
+    "price": "6 lakh BDT"
+  },
+  {
+    "id": 7,
+    "name": "Afif Hossain",
+    "img": "https://i.ibb.co.com/Gf1YNzWt/download-4.jpg",
+    "position": "Middle Order Batter",
+    "country": "Bangladesh",
+    "role": "All-rounder",
+    "rating": 83,
+    "price": "6 lakh BDT"
+  },
+  {
+    "id": 8,
+    "name": "Mohammad Rizwan",
+    "img": "https://i.ibb.co.com/wH36PgG/download-3.jpg",
+     "position": "Wicketkeeper Batter (Opener)",
+    "country": "Pakistan",
+    "role": "Wicket-keeper Batter",
+    "rating": 88,
+    "price": "9 lakh BDT"
+  },
+  {
+    "id": 9,
+    "name": "Rashid Khan",
+    "img": "https://i.ibb.co.com/WpBH7BjL/download-2.jpg",
+      "position": "Bowling All-Rounder",
+    "country": "Afghanistan",
+    "role": "Bowler",
+    "rating": 90,
+    "price": "5 lakh BDT"
+  },
+  {
+    "id": 10,
+    "name": "Steve Smith",
+    "img": "https://i.ibb.co.com/d4qbGGrr/images.jpg",
+    "position": "Top Order Batter",
+    "country": "Australia",
+    "role": "Batter",
+    "rating": 91,
+    "price": "11 crore BDT"
+  },
+  {
+    "id": 11,
+    "name": "Kane Williamson",
+    "img": "https://i.ibb.co.com/qM8X9vf1/download-1.jpg",
+    "position": "Top Order Batter",
+    "country": "New Zealand",
+    "role": "Batter",
+    "rating": 90,
+    "price": "8 lakh BDT"
+  },
+  {
+    "id": 12,
+    "name": "Mohammad Ripon Mondol",
+    "img": "https://i.ibb.co.com/VpSDnkDv/411220.webp",
+    "position": "Fast Bowler",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "rating": 80,
+    "price": "5.5 lakh BDT"
+  }
+]
