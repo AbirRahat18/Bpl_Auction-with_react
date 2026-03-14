@@ -1,69 +1,4 @@
-// import React, { } from 'react';
-// import Man from "../../assets/Group.png"
-// import Flag from "../../assets/flag.png"
-// import "../../componenets/Player/player.css"
 
-// const Player = ({player}) => {
-//     const Gotplayer =player
-//     console.log(Gotplayer)
-//     return (
-//         <div>
-//                  <div className="card bg-base-100  shadow-sm mt-5 p-5 Player">
-//               <figure>
-//                 <img className=' md:h=[200px] md:w-full'
-//                   src={Gotplayer.img}
-//                   alt="Shoes" />
-//               </figure>
-//               <div className="mt-4">
-//               <div className='flex items-center gap-1'>
-//                 <img className='w-5' src={Man} alt="man logo" />
-//                   <h2 className="card-title">{Gotplayer.name}</h2>
-//               </div>
-//             <div className='flex justify-between'>
-//             <div className='flex items-center gap-1'>
-//                 <img className='w-3' src={Flag} alt="" />
-//             <h3>{Gotplayer.country}</h3>
-//             </div>
-            
-//             <div>
-//                <button className="btn btn-soft">{Gotplayer.role}</button>
-//             </div>
-//             </div>
-//             <hr className='w-12/12 mx-auto mt-4' />
-            
-//             <div className='mt-2 font-bold'>
-//                 rating: {Gotplayer.rating}/100
-//             </div>
-//             <div className='flex justify-between mt-2'>
-//                 <div>
-//                     <h3 className='font-bold'>
-//                         position:  {Gotplayer.position}
-//                     </h3>
-//                 </div>
-//                 <div>
-                    
-//                 </div>
-//             </div>
-            
-//             <div className='flex justify-between mt-2'>
-//                 <h2 className='font-bold'>
-//                     Price: {Gotplayer.price}
-//                 </h2>
-//                 <button className="btn ">Chose player</button>
-//             </div>
-                
-//                <div className='w-[350px] mx-auto'>
-
-//                   <button className="btn  w-[350px] mt-4 ">Buy Now</button>
-//                </div>
-               
-//               </div>
-//               </div>
-//         </div>
-//     );
-// };
-
-// export default Player;
 import React, { useState } from 'react';
 import Man from "../../assets/Group.png"
 import Flag from "../../assets/flag.png"
@@ -75,18 +10,18 @@ const GotAvailable =Available
   const Gotplayer = player
 
   const [Istrue ,SetIstrue] = useState(false)
-  const [Bought , SetBought] = useState(false)
+  
 
 const HandleEvent=(GotData)=>{
-
+ 
   const pricedata =GotData.price.split("crore BDT").join("").split("lakh BDT").join("")
-     
+      toast("player Buy Done")
 
       if(GotAvailable < pricedata){
         toast("warning.... age bara tempu loo")
         return
       }
-SetBought(true)
+SetIstrue(true)
 GotSetAvailablePlayer(
 GotAvailable-pricedata
 )
@@ -96,8 +31,9 @@ GotAvailable-pricedata
   }
 
 Setpurchese(
-  [...Purchese , GotData]
-)
+  [...Purchese , GotData] )
+
+
 }
 
 
@@ -151,7 +87,7 @@ Setpurchese(
               Price: {Gotplayer.price}
             </h2>
 
-            <h3 disabled={Istrue===true} onClick={()=> SetIstrue(true)} className={` py-2  px-4 rounded-2xl text-white ${Istrue ===true ? "bg-[#c09d2c]":"bg-[#422ad5]"}`}>
+            <h3   className={` py-2  px-4 rounded-2xl text-white ${Istrue ===true ? "bg-[#c09d2c]":"bg-[#422ad5]"}`}>
              
               {Istrue===true ? "Player Selected" :"Chose Player"}
             </h3>

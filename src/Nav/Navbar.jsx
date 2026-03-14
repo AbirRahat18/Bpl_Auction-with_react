@@ -1,23 +1,4 @@
-// import React from 'react';
-// import Navimg from "../assets/logo.png"
 
-// import Coin from "../assets/Currency.png"
-// const Navbar = () => {
-//     return (
-//         <div className="navbar bg-base-100 shadow-sm md:w-[1200px] mx-auto" >
-//   <div className="flex-1">
-//     <a className="text-md "><img className='h-[60px] w-[60px]' src={Navimg} alt="logo" /></a>
-//   </div>
-//   <div className="flex items-center">
-//     <span className='mr-1'>60000000</span>
-//     <span className='mr-1'>Coin</span>
-//     <span ><img src={Coin} alt="" /></span>
-//   </div>
-// </div>
-//     );
-// };
-
-// export default Navbar;
 
 import React from 'react';
 import Navimg from "../assets/logo.png"

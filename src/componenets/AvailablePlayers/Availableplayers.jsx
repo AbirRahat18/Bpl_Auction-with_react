@@ -1,31 +1,3 @@
-// import React, { use } from 'react';
-// import Man from "../../assets/Group.png"
-// import Flag from "../../assets/flag.png"
-// import Player from '../Player/Player';
-// import "../../componenets/AvailablePlayers/Available.css"
-
-
-// const Availableplayers = ({PlayerObject}) => {
-//     const GetPlayers = use(PlayerObject)
-//     // console.log(GetPlayers)
-//     return (
-//        <div className="  w-[1200px] mx-auto ">
- 
-// <div className='grid grid-cols-1 md:grid-cols-3 mx-auto gap-4 mx-auto max-w[1200px]'>
-
-//          {
-//         GetPlayers.map((player , index) => <Player key={index} player={player} ></Player>)
-//        }
-   
-// </div>
-
-//        </div>
-      
-//     );
-// };
-
-// export default Availableplayers;
-
 import React, { use } from 'react';
 import Player from '../Player/Player';
 import "../../componenets/AvailablePlayers/Available.css"
