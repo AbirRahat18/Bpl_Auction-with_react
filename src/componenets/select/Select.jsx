@@ -1,5 +1,6 @@
 import React, {  } from 'react';
 import Delete from "../../assets/delete.png"
+import { toast } from 'react-toastify';
 
 const Select = ({Purchese ,RemoveData}) => {
     
@@ -13,7 +14,8 @@ const Select = ({Purchese ,RemoveData}) => {
                 {
                     GotPlayerObject.map(Sngle => {
             const Handle=()=>{
-       RemoveData(Sngle)}
+       RemoveData(Sngle)
+    toast("pLayer Delete")}
                        return(
   
                  
